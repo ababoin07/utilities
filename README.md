@@ -43,7 +43,7 @@ int main() {
     tree.delete_node(child1);
 
     std::cout << "\nAfter deleting the first child:\n";
-    tree.print_tree(root);
+    print_all_tree()  //tree.print_tree(root); works too here, because there is 'one tree in the forest'.
 
     return 0;
 }
