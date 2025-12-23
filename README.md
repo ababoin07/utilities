@@ -1,7 +1,11 @@
 # Utilities
 
 This repository contains useful C++ header files for various projects.  
-Currently, it provides a generic **AST** (Abstract Syntax Tree) manager via the `ast.h` file.
+Currently, it provides;
+
+- A generic easily usable **AST** (Abstract Syntax Tree) manager via the `ast.h` file.
+
+All these projects are sub-projects from an other project I'm doing: a scratch interpreter (/compiler maybe) in c++
 
 ---
 
