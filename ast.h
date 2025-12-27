@@ -4,7 +4,8 @@
 #include <vector>
 #include <algorithm>
 
-struct AST {
+struct AST 
+    {
     static constexpr size_t NULL_IDX = static_cast<size_t>(-1);
 
     std::vector<size_t> parent_idx;
@@ -133,3 +134,4 @@ struct AST {
     }
 
 };
+
